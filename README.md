@@ -53,7 +53,7 @@ client.getBalance('*', 6, function(err, balance) {
 
 ### Get the network hash rate
 ```js
-client.getNetworkHashPS(function(err, hashps) {
+client.getNetworkHashPs(function(err, hashps) {
   if (err) console.error(err);
   console.log('Network Hash Rate: ' + hashps);
 });
