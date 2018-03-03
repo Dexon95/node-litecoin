@@ -34,7 +34,7 @@ var litecoin = require('litecoin');
 var client = new litecoin.Client({
   host: 'localhost',
   port: 9332,
-  user: 'test',
+  user: 'username',
   pass: '$3cr37P@s5w0rd',
   timeout: 30000,
   ssl: false/* true,
