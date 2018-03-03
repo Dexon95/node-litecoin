@@ -1,0 +1,35 @@
+{
+  "name": "litecoin",
+  "description": "Communicate with litecoind via JSON-RPC",
+  "version": "2.0.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "litecoin",
+    "rpc"
+  ],
+  "author": "Dexon Noxed (https://dexontech.net/)",
+  "contributors": [
+    "Bill Casarin <bill@casarin.ca> (jb55.com)",
+    "Sean Lavine <sean@eternalrise.com>"
+  ],
+  "homepage": "https://github.com/dexon95/node-litecoin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dexon95/node-litecoin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dexon95/node-litecoin/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Unlicense"
+}
